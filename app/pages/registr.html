@@ -1,0 +1,331 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HaiBike</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+
+<div class="l-wrapper">
+    <!----------HEADER----------->
+    <header class="l-header">
+        <div class="l-header__main">
+            <div class="l-container">
+
+                <!----------LOGO----------->
+                <a href="#" class="c-logo">
+                    <img src="/images/logo.png" class="c-logo__image"/>
+                </a>
+                <!--------LOGO END--------->
+
+                <!------TOP SITE MENU------->
+                <nav class="c-nav c-nav--top is-hidden-xs">
+                    <ul class="c-nav__menu">
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Каталог</a>
+                        </li>
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Оплата</a>
+                        </li>
+                        <li class="c-nav__delimer">/</li>
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Доставка</a>
+                        </li>
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!----TOP SITE MENU END------>
+                <div class="l-header__info">
+                    <a href="#" class="c-menu__link is-visible-inline-block-xs"
+                       onClick="headerMenu.toggleMenu(); return false;"><i></i></a>
+                    <div class="l-header__info--left">
+                        <div class="l-contacts--left">
+                            <!--------PHONE-------->
+                            <a href="tel:+7(495)777-77-77" class="c-phone">
+                                <i class="c-phone__icon icon-phone"></i>
+                                <span class="c-phone__text">+7 (495) 777-77-77</span>
+                            </a>
+                            <!------PHONE END------->
+                            <!------WORK TIME------->
+                            <div class="c-worktime is-hidden-xs">Пн - Пт, 9:00 - 18:00</div>
+                            <!----WORK TIME END----->
+                        </div>
+                        <div class="l-contacts--right is-hidden-xs">
+                            <!--------CITY-------->
+                            <a href="#" class="c-city">
+                                <i class="c-city__icon icon-marker"></i>
+                                <span class="c-city__text">Москва</span>
+                            </a>
+                            <!------CITY END------>
+                        </div>
+                    </div>
+
+                    <div class="l-header__info--right">
+                        <!------SEARCH FORM------->
+                        <div class="c-search">
+                            <form>
+                                <button type="submit" class="c-search__button"><i class="icon-search"></i></button>
+                                <input type="text" class="c-search__input"/>
+                            </form>
+                        </div>
+                        <!----SEARCH FORM END----->
+                        <div class="l-goods-info h-clearfix">
+                            <div class="l-goods-info__icons h-display--inline-block">
+                                <!------USER IS LOGINED MOBILE------>
+                                <a href="#" class="c-user is-visible-inline-block-xs">
+                                    <i class="c-user__icon icon-user"></i>
+                                </a>
+                                <!-----USER IS LOGINED MOBILE END----->
+                                <a href="#" class="c-favorite--icon">
+                                    <i class="icon-heart"></i>
+                                    <!----FAVORITES COUNT----->
+                                    <span class="c-favorite--icon__text">14</span>
+                                    <!----FAVORITES COUNT END----->
+                                </a>
+                                <a href="#" class="c-cart--icon"><i class="icon-cart"></i></a>
+                            </div>
+                            <div class="l-goods-info__cart h-display--inline-block is-hidden-xs">
+                                <a href="#">
+                                    <p>Корзина</p>
+                                    <!----CART PRICE----->
+                                    <p>0 р.</p>
+                                    <!----CART PRICE END----->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="l-header__nav is-hidden-xs">
+            <div class="l-container">
+                <!------BOTTOM SITE MENU------>
+                <nav class="c-nav c-nav--bottom">
+                    <ul class="c-nav__menu c-nav__menu--left">
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Электровелосипеды</a>
+                        </li>
+                        <li class="c-nav__delimer">/</li>
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Велосипеды</a>
+                        </li>
+                        <li class="c-nav__delimer">/</li>
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Велоаксессуары</a>
+                        </li>
+                    </ul>
+
+                    <ul class="c-nav__menu c-nav__menu--center">
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Сервис</a>
+                        </li>
+                        <li class="c-nav__delimer">/</li>
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Гарантия</a>
+                        </li>
+                        <li class="c-nav__delimer">/</li>
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">О бренде</a>
+                        </li>
+                    </ul>
+
+                    <ul class="c-nav__menu c-nav__menu--right">
+                        <li class="c-nav__item">
+                            <a href="#" class="c-nav__link">Почему покупать у нас?</a>
+                        </li>
+                    </ul>
+                    <!------BOTTOM SITE MENU END------>
+                </nav>
+
+                <!------USER IS LOGINED------>
+                <div class="l-header__personal">
+                    <a href="#" class="c-user">
+                        <i class="c-user__icon icon-user"></i>
+                        <span class="c-user__text">Вася П.</span>
+                    </a>
+                    <a href="#" class="button button-sm">Выход</a>
+                </div>
+                <!-----USER IS LOGINED END----->
+
+            </div>
+        </div>
+
+        <div class="c-menu--mobile">
+            <ul class="c-nav__menu">
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Электровелосипеды</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Велосипеды</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Велоаксессуары</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Каталог</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Оплата</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Доставка</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Контакты</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Сервис</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Гарантия</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">О бренде</a>
+                </li>
+                <li class="c-nav__item">
+                    <a href="#" class="c-nav__link">Почему покупать у нас?</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--------HEADER END----------->
+    <main class="l-main">
+        <!-----BREADCRUMBS START----->
+        <div class="l-container">
+            <div class="c-breadcrumbs">
+                <ul class="c-breadcrumbs__list">
+                    <li class="c-breadcrumbs__item">
+                        <a href="">Главная</a>
+                    </li>
+                    <li class="c-breadcrumbs__delimer">
+                        >
+                    </li>
+                    <li class="c-breadcrumbs__item">
+                        <a href="">Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-----BREADCRUMBS END----->
+
+        <!-----REGISTRATION FORM START----->
+        <div class="l-container">
+            <div class="c-registration">
+                <h3 class="c-registration__title">Регистрация</h3>
+                <p class="c-registration__bonus">
+                    Авторизованные пользователи могут копировать/использовать ранее накопленные бонусные баллы.
+                </p>
+                <form class="c-registration-form" >
+                    <label>Имя:<input class="c-registration-form__input" type="text" name="registration-name"></label>
+                    <label>Фамилия<input class="c-registration-form__input" type="text" name="registration-surname"></label>
+                    <label>*E-mail<input class="c-registration-form__input" type="text" name="registration-email"></label>
+                    <label>Пароль <p>(Не менее 6 символов)</p><input class="c-registration-form__input" type="text" name="registration-pass"></label>
+                    <label>*Подтвержден<input class="c-registration-form__input" type="text" name="registration-confirm"></label>
+                    <button class="c-registration-form__submit">Регистрация</button>
+                </form>
+                <p class="c-registration__personal-info">
+                    Нажимая на кнопку "Отправить", вы даете свое согласие на обработку ваших персональных данных.
+                </p>
+            </div>
+        </div>
+        <!-----REGISTRATION FORM END----->
+    </main>
+</div>
+
+
+
+<footer class="l-footer">
+    <div class="l-container">
+        <div class="c-footer__slogan is-visible-xs">We are ePerformance</div>
+        <div class="c-footer__menu">
+            <ul>
+                <li><a href="#" class="c-footer__link">Электровелосипеды</a></li>
+                <li><a href="#" class="c-footer__link">Велосипеды</a></li>
+                <li><a href="#" class="c-footer__link">Велоаксессуары</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="c-footer__link">Архивные модели</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="c-footer__link">О бренде</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="c-footer__link">Контакты</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="c-footer__link">Доставка и оплата</a></li>
+                <li><a href="#" class="c-footer__link">Гарантия и сервис</a></li>
+            </ul>
+        </div>
+        <div class="l-footer__wrap">
+            <div class="l-footer__main">
+                <div class="l-footer__inner">
+                    <div class="l-footer__submenu">
+                        <ul>
+                            <li class="is-hidden-xs">
+                                <a href="#" class="c-footer__link">Где купить?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="c-footer__link">Подписаться на новости и обновления</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="l-footer__phone">
+                        <div class="c-phone__label">Телефон в Москве:</div>
+                        <a href="tel:+7 (495) 777-77-77" class="c-phone__link">+7 (495) 777-77-77</a>
+                    </div>
+                </div>
+                <div class="l-footer__inner">
+                    <div class="c-footer__social">
+                        <div class="c-social__label">Обратная связь</div>
+                        <ul class="c-social__list">
+                            <li class="c-social__item">
+                                <a href="#" class="c-social__link"><i class="icon-vk"></i><span>HAIBIKE.VK</span></a>
+                            </li>
+                            <li class="c-social__item">
+                                <a href="#" class="c-social__link"><i class="icon-facebook"></i><span>HAIBIKE.FB</span></a>
+                            </li>
+                            <li class="c-social__item">
+                                <a href="#" class="c-social__link"><i class="icon-inst"></i><span>HAIBIKE.INST</span></a>
+                            </li>
+                            <li class="c-social__item">
+                                <a href="#" class="c-social__link"><i class="icon-www"></i><span>HAIBIKE.tv</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="c-footer__slogan is-hidden-xs">We are ePerformance</div>
+                </div>
+            </div>
+            <div class="l-footer__payment">
+                <div class="c-payment__label">Принимаем к оплате:</div>
+                <div class="c-payment__wrap">
+                    <div class="c-payment__inner">
+                        <img src="../content/visa.png"/>
+                        <img src="../content/mir.png"/>
+                        <img src="../content/yandexmoney.png"/>
+                    </div>
+                    <div class="c-payment__inner">
+                        <img src="../content/mastercard.png"/>
+                        <img src="../content/qiwi.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../scripts/app.js"></script>
+</body>
+</html>
