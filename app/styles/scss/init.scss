@@ -1,0 +1,15 @@
+//misc settings
+@import 'config/_settings';
+@import 'config/_mixins';
+
+//frameworks
+
+//global things
+@import 'general/_normalize';
+@import 'layout/_main';
+@import 'layout/_media';
+
+//plugins
+
+@import 'plugins/slick';
+@import 'plugins/swiper';

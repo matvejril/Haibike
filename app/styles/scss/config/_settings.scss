@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+  url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+  url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MyriadProItalic";
+  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+  url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MyriadProSemiBold";
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+  url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MyriadProBoldItalic";
+  src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+  src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+  url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MyriadProSemiBoldItalic";
+  src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+  src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+  url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url('../fonts/Helvetica/HelveticaLight.eot');
+  src: local('../fonts/Helvetica/HelveticaLight'),
+  url('../fonts/Helvetica/HelveticaLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Helvetica/HelveticaLight.woff') format('woff'),
+  url('../fonts/Helvetica/HelveticaLight.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-5-Normal';
+  src: url('../fonts/Helvetica/Helvetica-5-Normal.eot');
+  src: local('../fonts/Helvetica/Helvetica-5-Normal'),
+  url('../fonts/Helvetica/Helvetica-5-Normal.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Helvetica/Helvetica-5-Normal.woff') format('woff'),
+  url('../fonts/Helvetica/Helvetica-5-Normal.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-6-Medium';
+  src: url('../fonts/Helvetica/Helvetica-6-Medium.eot');
+  src: local('../fonts/Helvetica/Helvetica-6-Medium'),
+  url('../fonts/Helvetica/Helvetica-6-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Helvetica/Helvetica-6-Medium.woff') format('woff'),
+  url('../fonts/Helvetica/Helvetica-6-Medium.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-7-Bold';
+  src: url('../fonts/Helvetica/Helvetica-7-Bold.eot');
+  src: local('../fonts/Helvetica/Helvetica-7-Bold'),
+  url('../fonts/Helvetica/Helvetica-7-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Helvetica/Helvetica-7-Bold.woff') format('woff'),
+  url('../fonts/Helvetica/Helvetica-7-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rouble';
+  src: url('../fonts/als-rouble/ALSRubl.eot');
+  src: local('☺'), url('../fonts/als-rouble/ALSRubl.woff') format('woff'),
+  url('../fonts/als-rouble/ALSRubl.ttf') format('truetype'),
+  url('../fonts/als-rouble/ALSRubl.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?kv8olv');
+  src: url('../fonts/icomoon.eot?kv8olv#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?kv8olv') format('truetype'),
+  url('../fonts/icomoon.woff?kv8olv') format('woff'),
+  url('../fonts/icomoon.svg?kv8olv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  &-facebook:before {
+    content: "\e900";
+  }
+  &-vk:before {
+    content: "\e901";
+  }
+  &-inst:before {
+    content: "\e902";
+  }
+  &-www:before {
+    content: "\e903";
+  }
+  &-cart:before {
+    content: "\e904";
+  }
+  &-heart:before {
+    content: "\e905";
+  }
+  &-marker:before {
+    content: "\e906";
+  }
+  &-phone:before {
+    content: "\e907";
+  }
+  &-user:before {
+    content: "\e908";
+  }
+  &-search:before {
+    content: "\e909";
+  }
+}
+
+html, body {
+  font-family: 'Helvetica-Light', Helvetica, Arial, sans-serif;
+}
+
+.h-right {
+  float: right;
+}
+
+.h-left {
+  float: left;
+}
+
+.h-display {
+  &--inline-block {
+    display: inline-block;
+  }
+}
+
+.h-rouble {
+  font-family: 'rouble';
+}
+
+$actionColor: #1da7ff;

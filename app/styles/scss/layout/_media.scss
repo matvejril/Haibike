@@ -1,0 +1,873 @@
+@media (max-width: 1919px) { // 1920px
+  .l-container {
+    width: 1366px;
+    padding: 0 44px;
+  }
+
+  .l-contacts--left {
+    padding-left: 0;
+  }
+
+  .c-nav {
+    &__menu {
+      font-size: 16px;
+    }
+  }
+
+  .c-logo {
+    margin-right: 2.1%;
+  }
+
+  .l-header {
+    &__info {
+      width: 49%;
+      margin-left: 4%;
+      padding-top: 19px;
+    }
+    &__nav {
+      padding-top: 3px;
+    }
+    &__personal {
+      & .button {
+        font-size: 16px;
+        padding: 3px 16px;
+        letter-spacing: -.2px;
+      }
+    }
+  }
+
+  .c-phone {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 2px 0 5px 13px;
+    &__icon {
+      top: -2px;
+      font-size: 23px;
+    }
+  }
+
+  .c-worktime {
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  .c-city {
+    display: inline-block;
+    padding: 0 0 0 33px;
+    transform: translateY(-4px);
+
+    &__text {
+      font-size: 16px;
+      margin-left: 8px;
+    }
+  }
+
+  .c-search {
+    padding-bottom: 10px;
+
+    &__button {
+      vertical-align: top;
+      margin-right: 0;
+      & i {
+        font-size: 20px;
+      }
+    }
+
+    &__input {
+      width: 81px;
+      height: 19px;
+    }
+  }
+
+  .l-goods-info {
+    margin-left: 37px;
+    padding: 1px 2px 0 0;
+
+    &__cart {
+      font-size: 16px;
+      margin-left: 11px;
+      & p + p {
+        transform: translateY(5px);
+        font-size: 15px;
+      }
+    }
+
+    &__icons {
+      transform: translateY(2px);
+    }
+  }
+
+  .c-cart {
+    &--icon {
+      margin-left: 5px;
+      transform: translateY(0px);
+      font-size: 27px;
+    }
+  }
+
+  .c-favorite {
+    &--icon {
+      transform: translateY(1px);
+    }
+    &--icon__text {
+      top: calc(50% - 3px);
+    }
+  }
+
+  .c-nav {
+    &--bottom {
+      padding-left: 0;
+      width: 75%;
+      letter-spacing: 0.05px;
+    }
+    &__menu--center {
+      margin-left: 5.8%;
+    }
+    &__menu--right {
+      margin-left: 5.5%;
+    }
+  }
+
+  .l-header__personal {
+    width: 25%;
+    padding-right: 0;
+  }
+
+  .l-footer {
+    .l-container {
+      padding: 0 50px;
+    }
+  }
+
+  .c-footer {
+    &__menu {
+      ul:last-child li:last-child {
+        margin-right: 0;
+      }
+      li {
+        min-width: 0;
+      }
+    }
+  }
+
+  .c-slider {
+    &-why, &-catalog {
+      &__wrap {
+        padding: 0 32px;
+        .slick-prev {
+          left: -30px;
+        }
+        .slick-next {
+          right: -30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1365px) { // 1366px
+  .l-container {
+    width: 1280px;
+    padding: 0 45px;
+  }
+
+  .l-header {
+    &__info {
+      width: 45.2%;
+    }
+    &__personal {
+      width: 24%;
+      & .button {
+        letter-spacing: 0;
+      }
+    }
+  }
+
+  .l-goods-info {
+    margin-left: 29px;
+    vertical-align: middle;
+    margin-top: -25px;
+    padding: 0 6px 0 0;
+    &__icons {
+      display: block;
+      margin-bottom: 2px;
+    }
+    &__cart {
+      display: block;
+      text-align: center;
+      margin-left: 0;
+    }
+  }
+
+  .c-nav {
+    &--bottom {
+      width: 76%;
+    }
+    &__menu--center {
+      margin-left: 3.7%;
+    }
+    &__menu--right {
+      margin-left: 3.3%;
+    }
+  }
+  .c-user {
+    margin-right: 0;
+    width: calc(100% - 85px);
+    &__icon {
+      float: right;
+    }
+    &__text {
+      width: calc(100% - 20px);
+      padding-right: 18px;
+    }
+  }
+
+  .c-search {
+    vertical-align: middle;
+    padding-bottom: 0;
+  }
+
+  .c-phone__icon {
+    font-size: 23px;
+    top: -2px;
+  }
+
+  .c-footer {
+    &__link {
+      font-size: 16px;
+    }
+    &__menu {
+      ul:last-child {
+        margin-right: 0;
+      }
+      li {
+        min-width: 100px;
+      }
+      li:last-child {
+        margin-right: 0;
+      }
+    }
+    &__slogan {
+      width: 54.6%;
+      margin-top: 70px;
+    }
+  }
+
+  .l-footer {
+    padding: 38px 0 28px;
+
+    &__submenu {
+      li {
+        margin-bottom: 15px;
+      }
+    }
+    .c-social__label {
+      margin-top: -6px;
+      font-size: 16px;
+    }
+    &__payment {
+      min-width: 170px;
+      margin-top: 32px;
+    }
+    &__main {
+      width: calc(100% - 170px);
+    }
+    &__phone {
+      width: 54.3%;
+      font-size: 16px;
+    }
+    & .c-payment {
+      &__label {
+        font-size: 16px;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 1279px) { // 1280px
+  .l-container {
+    width: 1170px;
+    padding: 0 34px;
+  }
+
+  .l-header {
+    &__info {
+      padding-top: 0;
+      width: 40.1%;
+      margin-bottom: 1px;
+      margin-left: 4%;
+
+      &--left {
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+      }
+      &--right {
+        padding-top: 19px;
+      }
+    }
+
+    &__nav {
+      height: 82px;
+      & .l-container {
+        align-items: flex-start;
+      }
+    }
+
+    &__personal {
+      width: 15%;
+      padding-top: 7px;
+      & .button {
+        padding: 3px 14px;
+      }
+    }
+
+  }
+
+  .c-nav {
+    &--bottom {
+      width: 85%;
+      padding-top: 11px;
+    }
+    &__menu--center {
+      margin-left: 4.5%;
+    }
+
+    &__menu--right {
+      margin-left: 4.2%;
+    }
+  }
+
+  .c-user {
+    display: block;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    margin-bottom: 9px;
+    &__text {
+      width: 100%;
+      padding-right: 0;
+      font-size: 16px;
+      max-width: 100%;
+    }
+    &__icon {
+      float: none;
+      position: absolute;
+      top: 32px;
+      right: 84px;
+    }
+  }
+
+  .c-city {
+    padding-left: 0;
+    margin-left: -20px;
+  }
+
+  .c-logo {
+    margin-right: 1.2%;
+  }
+
+  .c-worktime {
+    padding-left: 2px;
+  }
+
+  .l-goods-info {
+    padding-right: 2px;
+    margin-left: 35px;
+  }
+
+  .c-footer {
+    &__menu {
+      li {
+        min-width: 0;
+      }
+      ul {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .c-slider {
+    &-why, &-catalog {
+      &__wrap {
+        .slick-prev {
+          left: -10px;
+        }
+        .slick-next {
+          right: -10px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1169px) { // 1170px
+  .l-container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .c-logo {
+    max-width: 24%;
+  }
+
+  .l-header__main {
+    padding-top: 17px;
+  }
+
+  .c-nav__menu {
+    font-size: 14px;
+  }
+
+  .l-header__info {
+    width: 42%;
+  }
+
+  .l-footer {
+    .c-footer__link,
+    .c-phone__label,
+    .c-social__label,
+    .c-payment__label {
+      font-size: 14px;
+    }
+  }
+
+  .slick {
+    &-prev {
+      left: -53px
+    }
+    &-next {
+      right: -53px
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .l-container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .c-logo {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    height: 104px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #232323;
+  }
+
+  .l-header {
+    &__main {
+      height: auto;
+      padding: 0;
+      & .l-container {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: stretch;
+        align-items: stretch;
+        padding: 0;
+      }
+    }
+    &__info {
+      width: 100%;
+      padding: 8px 13px 10px 13px;
+      margin: 0;
+      &--left {
+        float: left;
+        display: inline-flex;
+        vertical-align: top;
+      }
+      &--right {
+        padding: 0 6px 0 0;
+        max-width: calc(100% - 182px);
+      }
+    }
+  }
+
+  .c-phone {
+    font-size: 13px;
+    line-height: 1;
+    margin: 10px 0 0 7px;
+    letter-spacing: -.1px;
+    &__icon {
+      position: static;
+      font-size: 14px;
+      margin-right: 1px;
+    }
+  }
+
+  .c-menu__link {
+    position: relative;
+    width: 30px;
+    height: 29px;
+    float: left;
+    & i, & i:before, & i:after {
+      position: absolute;
+      background-color: #fff;
+      height: 1px;
+    }
+    & i {
+      top: 50%;
+      width: calc(100% - 10px);
+      left: 5px;
+      &:before, &:after {
+        content: '';
+        left: 0;
+        width: 100%;
+      }
+      &:before {
+        top: calc(50% - 5px);
+      }
+      &:after {
+        top: calc(50% + 5px);
+      }
+    }
+  }
+
+  .c-search {
+    margin-right: 6px;
+    &__input {
+      display: none;
+    }
+
+    &__button i {
+      font-size: 22px;
+    }
+  }
+
+  .l-goods-info {
+    margin: 0;
+    padding: 0;
+    &__icons {
+      margin: 0;
+    }
+  }
+
+  .c-user {
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    &__icon {
+      display: inline-block;
+      position: static;
+      font-size: 20px;
+      transform: translateY(1px);
+      margin: 0;
+    }
+  }
+
+  .c-favorite {
+    &--icon {
+      font-size: 0;
+      margin-left: 10px;
+      transform: translateY(2px);
+      &__text {
+        font-size: 14px;
+      }
+      & i {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .c-cart--icon {
+    font-size: 22px;
+    margin-left: 9px;
+    transform: translateY(1px);
+  }
+
+  .c-item {
+    &__name {
+      font-size: 18px;
+    }
+    &__price {
+      font-size: 26px;
+    }
+  }
+
+  /*----------HELPERS---------*/
+
+  .is-hidden-xs {
+    display: none !important;
+  }
+
+  .is-visible-xs {
+    display: block !important;
+  }
+
+  .is-visible-inline-xs {
+    display: inline !important;
+  }
+
+  .is-visible-inline-block-xs {
+    display: inline-block !important;
+  }
+
+  .is-visible-flex-xs {
+    display: flex !important;
+  }
+
+  .is-visible-flex-inline-xs {
+    display: inline-flex !important;
+  }
+
+  .c-menu--mobile {
+    background-color: #f4f4f4;
+  }
+
+  .c-nav {
+    &__menu {
+      width: 100%;
+    }
+    &__item {
+      display: block;
+      & + & {
+        margin-left: 0;
+      }
+      &:not(:last-child) .c-nav__link {
+        border-bottom: 2px solid #d4d4d4;
+      }
+      &:nth-child(3n):after {
+        content: '';
+        display: block;
+        height: 46px;
+        background-color: #fff;
+        border-bottom: 2px solid #d4d4d4;
+      }
+    }
+    &__link {
+      display: block;
+      color: #1da7ff;
+      text-align: center;
+      padding: 12px 0 11px;
+      line-height: 1;
+      font-size: 24px;
+      letter-spacing: .2px;
+    }
+
+  }
+
+  .c-footer {
+    &__slogan {
+      width: 100%;
+      text-align: center;
+      margin: 0 0 24px;
+      font-size: 30px;
+    }
+    &__menu {
+      text-align: center;
+      li {
+        margin: 0 6px 11px;
+      }
+      ul {
+        margin: 0;
+      }
+    }
+    &__link {
+      letter-spacing: .8px;
+    }
+  }
+
+  .l-footer {
+    padding: 31px 0 60px;
+    text-align: center;
+    .l-container {
+      padding: 0 20px;
+    }
+    &__wrap {
+      display: block;
+      width: 100%;
+    }
+    &__payment {
+      width: 100%;
+      margin-top: 25px;
+    }
+    .c-payment {
+      &__wrap {
+        justify-content: center;
+      }
+      &__inner {
+        width: 90px;
+      }
+      &__label {
+        font-size: 20px;
+      }
+    }
+    &__main {
+      width: 100%;
+    }
+    &__inner {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    &__phone {
+      width: calc(100% + 40px);
+      margin: 10px -20px 25px;
+      padding: 11px 0;
+      font-size: 18px;
+      color: #fff;
+      background-color: #1da7ff;
+    }
+    .c-phone {
+      &__link {
+        color: #fff;
+      }
+      &__label {
+        font-size: 18px;
+      }
+    }
+    .c-social {
+      &__list {
+        text-align: left;
+      }
+      &__label {
+        margin-top: 0;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+  .c-slider {
+    &-main {
+      &__wrap {
+        width: calc(100% + 40px);
+        margin: 0 -20px 0;
+        max-width: calc(100% + 40px);
+        padding: 58px 60px 104px;
+      }
+      &__title {
+        font-size: 23px;
+        line-height: 24px;
+        margin-left: 2px;
+        max-width: 100%;
+      }
+      &__text {
+        font-size: 17px;
+        margin: 9px 0 0 3px;
+        max-width: 85%;
+        letter-spacing: 0;
+        min-height: 0;
+      }
+      &__description {
+        padding: 29px 0 0;
+      }
+    }
+    &-why {
+      &__item[data-swiper-row="1"] {
+        margin-top: 25px !important;
+      }
+      padding: 0 0 10px;
+      &__wrap {
+        padding: 0;
+        margin: 0 -12px;
+      }
+      &__item {
+        padding: 0 10px;
+      }
+      &__text {
+        font-size: 12px;
+        margin: 8px 0 0;
+        line-height: 14px;
+      }
+      .slick-arrow {
+        position: relative;
+        margin-top: 18px;
+        transform: none;
+        top: 0;
+        width:  38px;
+        height: 38px;
+      }
+    }
+    &__buttons {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .c-slider {
+    &__button {
+      display: none;
+    }
+    &-main {
+      &__wrap {
+        padding: 0;
+        background-color: #ffffff;
+      }
+      &__item {
+        padding: 0;
+        img {
+          width: 100%;
+        }
+      }
+      &__description {
+        background-image: inherit;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      &__text {
+        margin: 9px 0 70px 3px;
+      }
+    }
+  }
+
+  .c-title {
+    font-size: 23px;
+    margin: 20px 0 21px;
+  }
+}
+
+@media (max-width: 359px) {
+
+
+  .c-favorite--icon {
+    margin-left: 1px;
+    & i {
+      font-size: 20px;
+    }
+    &__text {
+      top: calc(50% - 1px);
+      font-size: 12px;
+    }
+  }
+
+  .c-user {
+    transform: translateY(-1px);
+    &__icon {
+      font-size: 17px;
+    }
+  }
+
+  .l-header__info {
+    padding: 5px 8px 8px 8px;
+    &--right {
+      padding: 3px 5px 0 0;
+    }
+  }
+
+  .c-search {
+    margin-right: 0;
+    &__button i {
+      font-size: 18px;
+    }
+  }
+
+  .c-cart--icon {
+    font-size: 20px;
+    margin-left: 4px;
+  }
+}
