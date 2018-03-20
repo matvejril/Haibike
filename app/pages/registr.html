@@ -200,6 +200,8 @@
         </div>
     </header>
     <!--------HEADER END----------->
+
+
     <main class="l-main">
         <!-----BREADCRUMBS START----->
         <div class="l-container">
@@ -227,11 +229,22 @@
                     Авторизованные пользователи могут копировать/использовать ранее накопленные бонусные баллы.
                 </p>
                 <form class="c-registration-form" >
-                    <label>Имя:<input class="c-registration-form__input" type="text" name="registration-name"></label>
-                    <label>Фамилия<input class="c-registration-form__input" type="text" name="registration-surname"></label>
-                    <label>*E-mail<input class="c-registration-form__input" type="text" name="registration-email"></label>
-                    <label>Пароль <p>(Не менее 6 символов)</p><input class="c-registration-form__input" type="text" name="registration-pass"></label>
-                    <label>*Подтвержден<input class="c-registration-form__input" type="text" name="registration-confirm"></label>
+                    <div class="c-registration-form__item">
+                        <label for="registration-name">Имя:</label><input id="registration-name" class="c-registration-form__input" type="text" name="registration-name">
+                    </div>
+                    <div class="c-registration-form__item">
+                        <label for="registration-surname">Фамилия</label><input id="registration-surname" class="c-registration-form__input" type="text" name="registration-surname">
+                    </div>
+                    <div class="c-registration-form__item">
+                        <label for="registration-email">*E-mail</label><input id="registration-email" class="c-registration-form__input" type="text" name="registration-email">
+                    </div>
+                    <div class="c-registration-form__item">
+                        <label for="registration-pass">*Пароль <p>(Не менее 6 символов)</p></label><input id="registration-pass" class="c-registration-form__input" type="text" name="registration-pass">
+                    </div>
+                    <div class="c-registration-form__item">
+                        <label for="registration-confirm">*Подтвержден</label><input id="registration-confirm" class="c-registration-form__input" type="text" name="registration-confirm">
+                    </div>
+
                     <button class="c-registration-form__submit">Регистрация</button>
                 </form>
                 <p class="c-registration__personal-info">
